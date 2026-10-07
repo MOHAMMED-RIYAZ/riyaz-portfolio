@@ -43,6 +43,9 @@ export default function Home() {
             <a href="#education" className="transition hover:text-white">
               Education
             </a>
+            <a href="#certifications" className="transition hover:text-white">
+              Certifications
+            </a>
 
             <a href="#contact" className="transition hover:text-white">
               Contact
@@ -102,6 +105,14 @@ export default function Home() {
                 className="transition hover:text-white"
               >
                 Education
+              </a>
+
+              <a
+                href="#certifications"
+                onClick={() => setMenuOpen(false)}
+                className="transition hover:text-white"
+              >
+                Certifications
               </a>
 
               <a
@@ -969,6 +980,74 @@ export default function Home() {
                 <p className="mt-1 font-medium text-white">8.64 / 10</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ========================================================= */}
+      {/* CERTIFICATIONS */}
+      {/* ========================================================= */}
+
+      <section id="certifications" className="bg-black px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="max-w-3xl">
+            <p className="mb-3 text-sm font-medium uppercase tracking-[0.25em] text-blue-500">
+              Certifications
+            </p>
+
+            <h2 className="text-4xl font-bold text-white md:text-5xl">
+              Professional Certification
+            </h2>
+
+            <p className="mt-5 text-lg leading-8 text-gray-400">
+              Professional certification demonstrating my knowledge of AWS
+              application development and cloud services.
+            </p>
+          </div>
+
+          <div className="mt-12 max-w-2xl">
+            <article className="rounded-2xl border border-white/10 bg-zinc-900 p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40">
+              <div className="flex items-start gap-5">
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-blue-500/10 text-xl font-bold text-blue-400">
+                  AWS
+                </div>
+
+                <div>
+                  <p className="text-sm font-medium uppercase tracking-wider text-blue-500">
+                    Amazon Web Services
+                  </p>
+
+                  <h3 className="mt-2 text-2xl font-bold text-white">
+                    AWS Certified Developer – Associate
+                  </h3>
+
+                  <p className="mt-3 text-gray-400">
+                    Validates knowledge of developing, deploying, and debugging
+                    cloud-based applications on AWS.
+                  </p>
+
+                  <div className="mt-6 flex flex-wrap gap-3">
+                    <a
+                      href="https://www.credly.com/badges/517d6274-fe8b-41ed-a513-84af22b8341b"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg bg-blue-600 px-5 py-2.5 font-medium text-white transition hover:bg-blue-500"
+                    >
+                      Verify on Credly ↗
+                    </a>
+
+                    <a
+                      href="https://drive.google.com/file/d/1duzJpxgkjCaXmRASNWTouT8ZjxCKknkb/view?usp=drive_link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="rounded-lg border border-white/10 px-5 py-2.5 font-medium text-gray-300 transition hover:border-blue-500/40 hover:text-white"
+                    >
+                      View Certificate ↗
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
