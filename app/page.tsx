@@ -837,7 +837,7 @@ export default function Home() {
                     </p>
 
                     <h3 className="mt-2 text-2xl font-bold text-white">
-                      System Engineer
+                      Software Engineer
                     </h3>
 
                     <p className="mt-2 text-gray-500">Bangalore, India</p>
@@ -846,66 +846,6 @@ export default function Home() {
                   <span className="w-fit rounded-full border border-white/10 bg-black px-4 py-2 text-sm text-gray-400">
                     2025 — Present
                   </span>
-                </div>
-
-                <p className="mt-7 max-w-4xl leading-8 text-gray-400">
-                  Working as a backend-focused software engineer, contributing
-                  to API development, application maintenance, debugging and
-                  implementation of software solutions.
-                </p>
-
-                <div className="mt-8">
-                  <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300">
-                    Focus Areas
-                  </h4>
-
-                  <ul className="mt-4 space-y-3 text-gray-400">
-                    <li className="flex gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
-                      Backend development and REST API implementation.
-                    </li>
-
-                    <li className="flex gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
-                      Working with application logic, databases and API
-                      integrations.
-                    </li>
-
-                    <li className="flex gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
-                      Debugging issues and supporting application maintenance.
-                    </li>
-
-                    <li className="flex gap-3">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500" />
-                      Collaborating with team members during software
-                      development and problem solving.
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="mt-8">
-                  <h4 className="text-sm font-semibold uppercase tracking-wider text-gray-300">
-                    Technologies
-                  </h4>
-
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {[
-                      "C#",
-                      "ASP.NET Core",
-                      "Web API",
-                      "SQL",
-                      "Git",
-                      "Backend Development",
-                    ].map((tech) => (
-                      <span
-                        key={tech}
-                        className="rounded-full border border-white/10 bg-black px-3 py-1.5 text-sm text-gray-400"
-                      >
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
                 </div>
               </div>
             </div>
